@@ -12,6 +12,8 @@ Your default-bot is able to join matches in the cloud and locally. When you run 
 
 The bot has to be uploaded for it to be able to participate in tournaments or matches against other bots. 
 
+Deploying is as easy as running `make publish`. Make sure you have put your API-key in the Makefile.
+
 ## bot.conf
 
 This file is used when running your bot in the cloud. The worker will start a `dotnet` process using the `entrypoint` as its argument.
