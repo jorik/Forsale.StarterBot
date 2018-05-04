@@ -1,7 +1,7 @@
 # Forsale Starterbot
 
 ## Getting started
-  1. Register your bot on https://botchallenge.intern.infi.nl/
+  1. Register your bot on http://botchallenge.intern.infi.nl/
   2. Copy the API key and paste it in `Program.cs` and `Makefile`
   
 ## Running your bot
