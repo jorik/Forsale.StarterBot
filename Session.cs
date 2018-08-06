@@ -40,7 +40,7 @@ namespace ForSale.StarterBot.DotnetCore
                         var action = amount.HasValue ? $"bid {amount}" : "take";
                         
                         botInterface.WriteLine(action);
-                        botInterface.Log($"WRITE: action");
+                        botInterface.Log($"WRITE: {action}");
                         break;
                 }
             }
