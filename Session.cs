@@ -18,7 +18,7 @@ namespace ForSale.StarterBot.DotnetCore
                 if (line == string.Empty) continue;
                 var parts = line.ToLower().Split(' ');
 
-                Console.WriteLine($"READ: {line}");
+                botInterface.Log($"READ: {line}");
                 
                 switch (parts[0]) {
                     case "settings":
@@ -40,7 +40,7 @@ namespace ForSale.StarterBot.DotnetCore
                         var action = amount.HasValue ? $"bid {amount}" : "take";
                         
                         botInterface.WriteLine(action);
-                        Console.WriteLine($"WRITE: action");
+                        botInterface.Log($"WRITE: action");
                         break;
                 }
             }
